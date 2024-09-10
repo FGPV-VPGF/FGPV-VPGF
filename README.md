@@ -2,7 +2,7 @@
 
 ## Next Version
 
-Version 2 / Version 3 is now retired. We do not expect any further updates, and a number of the underlying libraries are depreciated as well. New visitors are encouraged to consider [RAMP 4](https://github.com/ramp4-pcar4/ramp4-pcar4). Notable changes include:
+Version 2 / Version 3 is now retired. We do not expect any further updates, and a number of the underlying libraries are deprecated as well. New visitors are encouraged to consider [RAMP 4](https://github.com/ramp4-pcar4/ramp4-pcar4). Notable changes include:
 
 - Updating the UI framework from Angular 1 to Vue 3
 - Updating the ESRI Mapping API from v3 to v4
@@ -74,7 +74,7 @@ $ rush serve -p 10 -v
 - `-p 10` specifies the maximum number of concurrent processes to run (we need 8 right now to serve all the packages at the same time)
 - `-v` provides verbose output for debugging
 
-If you want to work on only a subset of packages instead you have to run their builds/serves seperately:
+If you want to work on only a subset of packages instead you have to run their builds/serves separately:
 
 ```
 // terminal 0
@@ -152,7 +152,7 @@ Now that you have the required files on your page we should add the map element.
 ></div>
 ```
 
-A map should now load on your page. Theres much more you can do with RAMP, a good place to start is the [map author guide](#map-author-guide)
+A map should now load on your page. There's much more you can do with RAMP, a good place to start is the [map author guide](#map-author-guide)
 
 ### Samples
 
